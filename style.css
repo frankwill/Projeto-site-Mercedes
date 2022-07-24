@@ -1,0 +1,184 @@
+header {
+    background-color: black;
+    height: 150px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.centralizadora {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#principal {
+    color: #CCCCCC;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+header img {
+    width: 100px;
+    padding: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a{
+    color: #CCCCCC;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*main*/
+main img {
+    width: 100%;
+}
+
+.bg-principal {
+    position: absolute;
+    font-size: 35px;
+    top: 30%;
+    margin: 50px ;
+}
+.bg-principal h2 {
+    color: #FFFFFF;
+    font-size: 65px;
+    margin-bottom: 60px;
+}
+
+.bg-principal p {
+    color: #CCCCCC;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.bg-principal a {
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 10px 45px;
+    font-size: 22px;
+}
+
+.bg-principal a:hover {
+    background: #0084ff8f;
+}
+
+/*Listas*/
+.conteudo {
+    text-align: center;
+}
+
+.recomendacao {
+    margin-top: 50px;
+    font-size: 25px;
+
+}
+
+.conteudo li {
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 0 1em #CCCCCC;
+    display: inline-block;
+    margin: 50px 30px;
+    height: 400px;
+}
+
+.conteudo li:hover {
+    border: 1px solid #941212;
+    color: #941212;
+}
+
+.conteudo img {
+    width: 300px;
+}
+
+.card-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card-descricao {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    background: #000000;
+    color: #FFFFFF;
+    padding: 40px 0;
+    margin-top: 20px;
+
+}
+footer img {
+    width: 100px;
+}
+
+footer p {
+    margin-top: 15px;
+}
+
+/*Página sobre*/
+.sobre-principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.sobre-titulo {
+    font-size: 35px;
+    margin: 30px 50px;
+}
+
+.sobre-texto {
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.maps {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 35px 20px;
+}
+
+.maps h2 {
+    background-color: #CCCCCC;
+    padding: 15px;
+    margin: 20px 20px;
+}
+
+/*Contato*/
+form {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 15px;
+    width: 50%;
+    padding: 10px 20px;
+}
