@@ -28,27 +28,27 @@
         <main>
             <form>
                 <label for="nomeesobrenome">Nome e sobrenome</label>
-                <input type="text" id="nomeesobrenome" class="input-padrao">
+                <input type="text" id="nomeesobrenome" class="input-padrao" required>
 
                 <label for="email">Email</label>
-                <input type="email" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao" placeholder="exemplo@dominio.com">
 
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" class="input-padrao">
+                <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
 
                 <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" cols="70" rows="10" class="input-padrao"></textarea>
+                <textarea id="mensagem" cols="70" rows="10" class="input-padrao" placeholder="Digite sua mensagem aqui"></textarea>
 
-                <div class="radio-button">
-                    <p>Como prefere o nosso contato?</p>
+                <fieldset class="radio-button">
+                    <legend>Como prefere o nosso contato?</legend>
                     <label><input type="radio" name="contato"> Email</label>
                     <label><input type="radio" name="contato"> Telefone</label>
-                    <label><input type="radio" name="contato"> WhatsApp</label>
-                </div>
+                    <label><input type="radio" name="contato" checked> WhatsApp</label>
+                </fieldset>
 
-                <label><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+                <label><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
 
-                <input type="submit" value="Enviar formulário">
+                <input type="submit" value="Enviar formulário" class="enviar">
 
             </form>
         </main>

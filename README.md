@@ -4,9 +4,10 @@
 
 <ul>
     <li>Estilização de imagens;</li>
+    <li>Transition nos botões;</li>
     <li>Listas e divisões de conteúdos;</li>
-    <li>Criação de formulários e tabelas;</li>
-    <li>Importação de vídeo;</li>
+    <li>Alinhamento de conteúdos na página;</li>
+    <li>Criação de formulários;</li>
     <li>Aplicação de gradientes;</li>
     <li>Uso de fontes externas;</li>
     <li>Integração com Google Maps.</li>
