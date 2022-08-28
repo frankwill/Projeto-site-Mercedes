@@ -72,6 +72,7 @@ main img {
     border: 1px solid #CCCCCC;
     padding: 10px 45px;
     font-size: 22px;
+    transition: 1s background;
 }
 
 .bg-principal a:hover {
@@ -193,10 +194,11 @@ form label, form legend {
     font-weight: bold;
     border: none;
     cursor: pointer;
+    transition: 1s all;
 }
 
 .enviar:hover {
     background-color: #df0000;
-    transition: 1s all;
     transform: scale(1.1);
+    border-radius: 10px;
 }
