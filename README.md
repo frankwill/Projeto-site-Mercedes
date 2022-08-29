@@ -8,10 +8,7 @@
     <li>Listas e divisões de conteúdos;</li>
     <li>Alinhamento de conteúdos na página;</li>
     <li>Criação de formulários;</li>
-    <li>Aplicação de gradientes;</li>
     <li>Uso de fontes externas;</li>
     <li>Integração com Google Maps.</li>
 </ul>
 
-<p>Veja o site completo:</p>
-<img src="">
