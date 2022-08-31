@@ -3,8 +3,9 @@
 <p>esse projeto foram aplicados alguns conceitos muito interessantes como:</p>
 
 <ul>
+    <li>Adicionado responsividade em todas páginas;</li>
     <li>Estilização de imagens;</li>
-    <li>Transition nos botões;</li>
+    <li>Transições nos botões;</li>
     <li>Listas e divisões de conteúdos;</li>
     <li>Alinhamento de conteúdos na página;</li>
     <li>Criação de formulários;</li>

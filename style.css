@@ -43,6 +43,51 @@ nav a:hover {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 1024px) {
+
+    header {
+        background-color: black;
+        height: 150px;
+        border-bottom: 1px solid #CCCCCC;
+    }
+
+    .centralizadora, .bg-principal, .conteudo {
+        width: auto;
+    }
+
+    header img {
+        width: 50px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #principal {
+        display: none;
+    } 
+
+    nav {
+        position: static;
+        padding: 16px;
+    }
+    
+    nav li {
+        display: inline;
+        margin: auto 2px;
+        text-align: center;
+        border: 1px solid #CCCCCC;
+        padding: 3px;
+    }
+    
+    nav a{
+        color: #CCCCCC;
+        font-size: 16px;
+        text-decoration: none;
+    }
+}
+
+
+
 /*main*/
 main img {
     width: 100%;
@@ -78,6 +123,40 @@ main img {
 .bg-principal a:hover {
     background: #0084ff8f;
     transition: 1s background;
+}
+
+@media screen and (max-width: 1024px) {
+    .bg-principal {
+        position: absolute;
+        font-size: 35px;
+        top: 25%;
+        margin: 0;
+    }
+
+    .bg-principal h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .bg-principal p {
+        color: #CCCCCC;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .bg-principal a {
+        text-decoration: none;
+        color: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        padding: 5px 30px;
+        font-size: 16px;
+        transition: 1s background;
+    }
+    
+    .bg-principal a:hover {
+        background: #0084ff8f;
+        transition: 1s background;
+    }
 }
 
 /*Listas*/
@@ -129,11 +208,31 @@ footer {
 
 }
 footer img {
-    width: 100px;
+    width: 50px;
 }
 
 footer p {
     margin-top: 15px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    footer {
+        text-align: center;
+        background: #000000;
+        color: #FFFFFF;
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    footer img {
+        width: 20%;
+    }
+    
+    footer p {
+        font-size: 13px;
+    } 
 }
 
 /*Página sobre*/
@@ -148,10 +247,11 @@ footer p {
 }
 
 .sobre-texto {
-    text-align: justify;
+    text-align: center;
     font-size: 18px;
     margin-bottom: 20px;
 }
+
 
 .maps {
     text-align: center;
@@ -164,6 +264,27 @@ footer p {
     padding: 15px;
     margin: 20px 20px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .sobre-principal {
+        width: 100%;
+        margin: 0;
+    }
+
+    .sobre-texto {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 0;
+        padding: 25px;
+    }
+    
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+}
+
 
 /*Contato*/
 form {
@@ -201,4 +322,37 @@ form label, form legend {
     background-color: #df0000;
     transform: scale(1.1);
     border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    form {
+        width: 80%;
+        margin: auto;
+        padding: 20px 20px;
+    }
+    
+    form label, form legend {
+        display: block;
+        font-size: 20px;
+        margin: 0 0 15px;
+    }
+    
+    .input-padrao {
+        display: block;
+        margin: 0 0 15px;
+        width: 80%;
+        padding: 10px 20px;
+    }
+    
+    .enviar {
+        width: 100%;
+        padding: 15px 20px;
+        background-color: #c71717;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        transition: 1s all;
+    }
 }
